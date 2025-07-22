@@ -18,25 +18,25 @@ public class ncube {
         for (int row = 0; row < n; row++) {
             int[] temp = new int[n];
 
-            // Fill the row with values
+
             for (int col = 0; col < n; col++) {
                 temp[col] = num++;
             }
 
-            // Print row based on direction
+
             if (row % 2 == 0) {
                 // left to right
                 for (int col = 0; col < n; col++) {
                     System.out.print(temp[col] + " ");
                 }
             } else {
-                // right to left
+
                 for (int col = n - 1; col >= 0; col--) {
                     System.out.print(temp[col] + " ");
                 }
             }
 
-            System.out.println(); // Move to next row
+            System.out.println(); 
         }
 
         sc.close();
