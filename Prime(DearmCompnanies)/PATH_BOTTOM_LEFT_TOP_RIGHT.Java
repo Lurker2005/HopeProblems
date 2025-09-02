@@ -1,5 +1,5 @@
 import java.util.*;
-public class Hello {
+public class PATH_BOTTOM_LEFT_TOP_RIGHT {
 
     public static void main(String[] args) {
 		//Your Code Here
