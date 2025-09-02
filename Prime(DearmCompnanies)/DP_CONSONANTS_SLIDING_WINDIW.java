@@ -1,4 +1,5 @@
 import java.util.*;
+
 public class DP_CONSONANTS_SLIDING_WINDOW {
     public static void main(String[] args){
         Scanner sc=new SScanner(System.in);
