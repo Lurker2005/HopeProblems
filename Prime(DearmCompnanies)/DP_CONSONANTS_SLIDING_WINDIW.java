@@ -1,5 +1,5 @@
-import java.utils.*;
-public static class DP_CONSONANTS_SLIDING_WINDOW {
+import java.util.*;
+public class DP_CONSONANTS_SLIDING_WINDOW {
     public static void main(String[] args){
         Scanner sc=new SScanner(System.in);
         import java.util.*;
