@@ -5,7 +5,7 @@ public class stock_buy_or_SEll_Multuple_times {
 		//Your Code Here
 		Scanner sc=new Scanner(System.in);
 		int n=sc.nextInt();
-		int[] arr=new new int[n];
+		int[] arr=new 	 int[n];
 		for(int i=0;i<n;i++){
 		    arr[i]=sc.nextInt();
 		}
