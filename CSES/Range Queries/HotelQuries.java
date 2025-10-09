@@ -7,7 +7,7 @@ public class HotelQuries {
         }
         if(start==end){
             arr[ind]-=q;
-            return start+1;
+            return start;
         }
         int mid=(start+end)/2;
         int left=query(arr,q,ind*2,start,mid);
@@ -44,7 +44,7 @@ public class HotelQuries {
         StringBuilder sb=new StringBuilder();
         while(st.hasMoreTokens()){
             int q1=Integer.parseInt(st.nextToken());
-            sb.append(query(arr, q1, 1, 0, result-1)).append(" ");
+            sb.append(query(arr, q1, 1, 1, result)).append(" ");
 
         }
         System.out.print(sb);
